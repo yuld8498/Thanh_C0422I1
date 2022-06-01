@@ -1,7 +1,7 @@
 class Staff {
-    constructor(Fullname, Email) {
-        this.Fullname = Fullname;
-        this.Email = Email;
+    constructor(fullname, email) {
+        this.Fullname = fullname;
+        this.Email = email;
         this.setFullname = function (Value) {
             return this.Fullname = Value;
         };
@@ -15,7 +15,7 @@ class Staff {
             return this.Email;
         };
         this.toString = function () {
-            return `Fullname: ${this.Fullname}<br>Email: ${this.Email}<br>`;
+            return `Fullname: ${this.Fullname}<br>Email: ${this.Email}<br><hr>`;
         };
     };
 };
