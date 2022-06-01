@@ -6,7 +6,8 @@ function checkValue(value){
         console.log(`${value} không tồn tại trong mảng`);
     }
 }
-checkValue(5)
+checkValue(5);
+
 function checkValuebyFor(value){
     let count =0;
     for(let i=0;i<arr.length;i++){
@@ -19,4 +20,4 @@ function checkValuebyFor(value){
         console.log(`${value} không tồn tại trong mảng`);
     }
 }
-checkValuebyFor(11)
+checkValuebyFor(11);

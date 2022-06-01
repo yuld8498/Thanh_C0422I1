@@ -13,4 +13,4 @@ function  quadratic(a,b,c){
         }
     }
 }
-quadratic(8,12,-20)
+quadratic(8,12,-20);
